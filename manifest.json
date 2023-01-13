@@ -9,6 +9,7 @@
     "content_scripts": [
         {
             "all_frames": true,
+            "run_at": "document_idle",
             "matches": [
                 "https://docs.ictcortex.me/*"
             ],
