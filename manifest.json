@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Cortex Fullscreen Enable",
+    "description": "Chrome extension which enables you fullscreen mode on Cortex's Website",
+    "version": "1.0",
+    "icons": {
+        "128": "./images/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "matches": [
+                "https://docs.ictcortex.me/*"
+            ],
+            "js": [
+                "./scripts/jquery.js",
+                "./scripts/main.js"
+            ]
+        }
+    ]
+}
