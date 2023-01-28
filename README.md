@@ -1,9 +1,8 @@
 # Cortex Fullscreen Enabler
 
-Chrome extension which enables you fullscreen mode on Cortex's Website
+<img src="./images/icon800.jpg" width="200">
 
-
-![Logo](./images/icon128.png)
+Chrome extension which enables you fullscreen mode on Cortex's academy Website
 
 
 ## Installation
@@ -12,5 +11,3 @@ Chrome extension which enables you fullscreen mode on Cortex's Website
 - Go to [Manage extensions](chrome://extensions/) in Google Chrome (or another Chromium browser).
 - Make sure you have enabled Developer options (at the top right corner).
 - Click on Load unpacked and select the folder you extracted.
-
-**If extension isn't working at first, try refreshing web page Ctrl + F5**
